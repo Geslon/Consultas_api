@@ -1,4 +1,4 @@
-Site de busca realizado utizando javascript com apis.
+Site de busca realizado utilizando javascript com apis.
 
 Tempo: https://openweathermap.org/api
 CEP: https://viacep.com.br
