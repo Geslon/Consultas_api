@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Tektur:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Previsão do tempo</title>
+  </head>
+<nav class="nav-bar">
+  <a class="nav-previsao" href="index.html">Previsão do tempo</a>
+  <a class="nav-cep" href="cep.html">Consulta Ceo</a>
+  <a class="nav-filme" href="film.html">Consulta Filme</a>
+</nav>
+  <body>
+    <div class="big-box">
+      <input class="input-city" placeholder="Digite o nome da cidade..." />
+      <button onclick="btn_click()" class="btn-search">
+        <img
+          class="img-search"
+          src="http://www.svgrepo.com/show/488200/find.svg"
+        />
+      </button>
+      <div class="box-middle">
+        <h2 class="title-city">Tempo em </h2>
+        <p class="temp">Temperatura atual:</p>
+        <div class="temp-max-min">
+          <p class="temp-max">Máxima:</p>
+          <p class="temp-min">Mínima:</p>
+        </div>
+        <div class="box-iconsky">
+          <img
+            class="img-prevision"
+            src="https://openweathermap.org/img/wn/04n.png"
+          />
+          <p class="text-prevision"></p>
+        </div>
+        <p class="damp">Umidade relativa do ar: </p>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>

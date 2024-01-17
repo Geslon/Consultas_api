@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Domine", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");    
+}
+
+.nav-bar{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    margin: 10px;
+}
+
+.nav-previsao,
+.nav-cep,
+.nav-filme{
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 25px;
+    padding: 20px;
+    background: #000000;
+    opacity: 80%;
+    
+}
+
+.big-box {
+    background: #000000;
+    opacity: 80%;
+    border-radius: 25px;
+    padding: 25px;
+    width: 95%;
+    max-width: 450px;
+    order: 1;
+}
+
+.input-city {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: #7c7c7c2b;
+    color: #FFF;
+    width: calc(100% - 50px);
+}
+
+.btn-search {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+}
+
+.img-search {
+    width: 15px;
+}
+
+.title-city {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.temp {
+    color: #FFF;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.temp-max {
+    color: #FFF;
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.temp-min{
+    color: #FFF;
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.box-middle {
+    margin-top: 30px;  
+}
+
+.box-iconsky {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.damp {
+    color: #FFF;
+    margin-top: 20px;
+}
+
+.text-prevision {
+    color: #FFF;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.big-box2 {
+    background: #000000;
+    opacity: 80%;
+    border-radius: 25px;
+    padding: 25px;
+    width: 95%;
+    max-width: 450px;
+    order: 2;
+    margin-top: 100px;
+    
+}
+
+.input-city2 {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: #7c7c7c2b;
+    color: #FFF;
+    width: calc(100% - 80px);
+
+}
+
+.btn-search2 {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+    color: #FFF;
+}
+
+.title-city2 {
+    color: #FFF;
+    margin-top: 30px;
+   
+    
+}
+
+.box-info{
+    margin-top: 30px;
+    font-size: 15px;
+    color: #FFF;
+    
+}
+
+.title-rua{
+    margin: 15px;  
+}
+
+.title-bairro{
+    margin: 15px;
+}
+
+.title-cidade{
+    margin: 15px;
+}
+.title-estado{
+    margin: 15px;
+}
+.title-ddd{
+    margin: 15px;
+}
+
+
+.film-big-box{
+    background: #000000;
+    opacity: 80%;
+    border-radius: 25px;
+    padding: 25px;
+    width: 95%;
+    max-width: 450px;
+    order: 3;
+    margin-top: 100px;
+    
+}
+
+.input-film {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: #7c7c7c2b;
+    color: #FFF;
+    width: calc(100% - 80px);
+}
+
+.btn_click3{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+    color: #FFF;
+}
+
+.img-capa {
+    width: 50%;
+    border-radius: 10px;
+    justify-content: center;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.titles-film{
+    margin-top: 15px;
+    color: #FFF;
+}
+
+.title-year,
+.title-director,
+.title-duraction,
+.title-genre,
+.title-imdb,
+.title-rotten,
+.title-meta,
+.title-plot{
+    margin-top: 15px;
+    padding-left: 10px;
+}
